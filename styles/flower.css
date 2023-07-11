@@ -61,52 +61,68 @@ height: 300px;
 
 main section {
     margin-top: 55px;
+    /* max-height: ; */
 }
-     /* flower-containers  */
-     .section-one{
-        padding: 130px;
-        border-radius: 10px;
-        margin: 130px 0;
-        text-align: center;
-     }
-     .section-title{
-        color: #272727;
-        font-weight: 800;
-        font-size: 40px;
-     }
-     .section-description{
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 60px;
-        text-align: center;
-        padding: 10px 20px 50px 30px;
-
-     }
-    .flower-containers{
-
-         display: flex;
-         gap: 50px;
-         padding: ;
+     /* section.one  */
+    .section-one-banner{
+        margin-top: 200px;
     }
-.flower-1{
-    background-color: pink;
-    height: 450px;
-    width: 360px;
-    
-}
-.flower-2{
-background-color: aqua;
+     .background{
+        background-color: #E55473;
+        padding-top: 50px;
+        padding-left: 45px;
+        padding-right: 45px;
+        border-radius: 250px 250px 0px 0px;
+       
+     }
+     .background-two{
+       
+        background: rgba(5, 151, 160, 0.15);
+        padding-top: 50px;
+        padding-left: 45px;
+        padding-right: 45px;
+        border-radius: 250px 250px 0px 0px;
+     }
+     .background-three{
+        
+background: rgba(71, 125, 17, 0.15);
+        padding-top: 50px;
+        padding-left: 45px;
+        padding-right: 45px;
+        border-radius: 250px 250px 0px 0px;
+     }
+     
+     
 
-height: 450px;
-    width: 360px;
-   
+     .image-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        /* margin-bottom: 150px; */
+        
+     }
+     .image-zero{
+        width: 200px;
+    height: 300px;
+     }
+     .tree-section-container{
+        display:flex;
+        justify-content:center;
+        gap: 155px;
+        margin-bottom: 100px;
+     }
+.tree{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
 }
-.flower-3{
-background-color: darkcyan;
-height: 450px;
-    width: 360px;
-    
-}
+     
 /* section two */
 
 .info-container{
@@ -235,6 +251,7 @@ footer{
     height: 449px;
     flex-shrink: 0;
     text-align: center;
+    align-items: center;
     padding: 300px 0px 0px 0px;
 }
 .footer-description{
